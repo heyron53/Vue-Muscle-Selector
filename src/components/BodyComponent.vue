@@ -1,5 +1,5 @@
 <template>
-    <h1>Esto es un componente de pruebas</h1>
+    <h1>Human Body</h1>
     <div style="width: 25em">
         <MaleFront/>
     </div>
