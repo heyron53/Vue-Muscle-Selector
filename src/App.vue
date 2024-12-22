@@ -1,29 +1,12 @@
 <template>
-  <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
-  <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
-   <PruebaComponent/>
+
+  <BodyComponent/>
+
 </template>
 
-<script>
-// import HelloWorld from './components/HelloWorld.vue'
-import PruebaComponent from './components/PruebaComponent.vue'
+<script setup>
 
-export default {
-  name: 'App',
-  components: {
-    // HelloWorld,
-    PruebaComponent
-  }
-}
+  import BodyComponent from './components/BodyComponent.vue'
+
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>

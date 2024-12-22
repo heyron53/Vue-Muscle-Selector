@@ -5,6 +5,6 @@
     </div>
 </template>
 <script setup>
-    import MaleFront from './svg/MaleFront.vue'
+    import MaleFront from './body_svg/MaleFront.vue'
 
 </script>
