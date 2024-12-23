@@ -10,6 +10,9 @@
             <div class="col-6">
                 <MaleBack/>
             </div>
+            <div class="col-6">
+                <FemaleFront/>
+            </div>
         </div>
     </div>
 </template>
