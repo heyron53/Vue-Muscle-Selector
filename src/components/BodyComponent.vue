@@ -1,9 +1,9 @@
 <template>
-    <div class="d-flex justify-content-center">
+    <div class="d-flex justify-content-center pt-3">
         <h1 v-if="!bodyChange">Male Human Body</h1>
         <h1 v-else>Female Human Body</h1>
     </div>
-    <div class="d-flex justify-content-center">
+    <div class="d-flex justify-content-center pt-3">
         <button type="button" class="btn btn-info" @click="changeBodyType">Change body type</button>
     </div>
     <div class="d-flex justify-content-center">
