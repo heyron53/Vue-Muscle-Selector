@@ -172,7 +172,7 @@
         </g>
 
         <!-- Ankles -->
-        <g id="ankles" ref="ankles" fill="#3f3f3f">
+        <g id="ankles" fill="#3f3f3f">
             <!-- Left -->
             <path d="M998.25 1320.52c-4.62.24-8.17-1.08-8.78-6.28-1.6-13.81-.75-28.85-2.16-42.41q-.39-3.74.24-7.03a.69.69 0 011.23-.28c2.35 3.15 4.22 5.75 5.14 9.66 1.54 6.57 1.91 22.57 9.97 24.09q13.33 2.5 15.93-10.47c.92-4.57 1-12.33 5.05-17.25q.42-.51.42.15c.11 14.39.4 30.86-3.08 44.54-.79 3.13-3.31 4.23-6.51 4.4q-8.73.45-17.45.88z"/>
 
@@ -208,7 +208,6 @@
     const adductors = ref(0);
     const hamstring = ref(0);
     const calves = ref(0);
-    const ankles = ref(0);
     const feet = ref(0);
 
     const body = {
@@ -224,7 +223,6 @@
         adductors,
         hamstring,
         calves,
-        ankles,
         feet,
     }
 

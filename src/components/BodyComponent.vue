@@ -13,6 +13,9 @@
             <div class="col-6">
                 <FemaleFront/>
             </div>
+            <div class="col-6">
+                <FemaleBack/>
+            </div>
         </div>
     </div>
 </template>
