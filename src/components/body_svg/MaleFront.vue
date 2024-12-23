@@ -276,4 +276,5 @@
     onMounted(() => {
         prepareBodyParts()
     })
+    
 </script>
