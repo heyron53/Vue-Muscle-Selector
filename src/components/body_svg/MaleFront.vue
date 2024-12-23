@@ -257,11 +257,20 @@
         for (const muscle in body){
             if(body[muscle].value){
                 body[muscle].value.addEventListener('click', () => {
+                    resetClickedBodyParts();
                     body[muscle].value.style.fill = 'red'
                 })
             }
         }
 
+    }
+
+    const resetClickedBodyParts = () => {
+        for (const muscle in body){
+            if(body[muscle].value){
+                body[muscle].value.style.fill = '#3f3f3f'
+            }
+        }
     }
 
     onMounted(() => {
